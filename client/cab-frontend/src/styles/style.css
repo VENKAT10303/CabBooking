@@ -1,0 +1,244 @@
+/* ==========================
+   NAVBAR
+========================== */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background:#f8fafc;
+}
+
+.navbar{
+
+    padding:15px 0;
+    transition:0.3s;
+
+}
+
+.navbar-brand{
+
+    font-size:30px;
+    font-weight:700;
+
+}
+
+.nav-link{
+
+    margin:0 10px;
+    font-weight:500;
+    color:#1e293b !important;
+    transition:0.3s;
+
+}
+
+.nav-link:hover{
+
+    color:#2563eb !important;
+
+}
+
+.btn{
+
+    border-radius:8px;
+
+}
+.hero{
+    padding:80px 0;
+    background:#f8fafc;
+}
+
+.hero h1{
+    font-size:55px;
+    font-weight:bold;
+    color:#0f172a;
+}
+
+.hero p{
+    font-size:20px;
+    margin:25px 0;
+    color:#555;
+}
+
+.hero-img{
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.cab-card{
+    border:none;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.cab-card:hover{
+    transform:translateY(-10px);
+}
+
+.choose-us{
+    padding:80px 0;
+    background:#2563eb;
+    color:white;
+}
+
+.footer{
+    background:#0f172a;
+}
+
+.social-icons{
+    display:flex;
+    gap:20px;
+    font-size:22px;
+    margin-top:15px;
+}
+
+.footer ul li{
+    margin-bottom:10px;
+    cursor:pointer;
+}
+
+.footer ul li:hover{
+    color:#ffc107;
+}
+/* LOGIN & REGISTER */
+
+.card{
+    border:none;
+    border-radius:15px;
+}
+
+.card h2{
+    color:#2563eb;
+    font-weight:700;
+}
+
+.form-control{
+    border-radius:10px;
+    padding:12px;
+}
+
+.form-control:focus{
+    box-shadow:none;
+    border:2px solid #2563eb;
+}
+
+.btn{
+    border-radius:10px;
+    padding:10px;
+}
+
+.card a{
+    text-decoration:none;
+    margin-left:5px;
+    font-weight:600;
+}
+/* ===========================
+   USER DASHBOARD
+=========================== */
+
+.dashboard-header{
+
+    text-align:center;
+
+}
+
+.dashboard-header h2{
+
+    font-weight:700;
+
+}
+
+.dashboard-header p{
+
+    color:#6c757d;
+
+    margin-top:10px;
+
+}
+
+.dashboard-card{
+
+    background:#fff;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+    transition:.3s;
+
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.dashboard-card h3{
+
+    font-size:45px;
+
+}
+
+.dashboard-card h4{
+
+    margin:20px 0;
+
+    font-weight:600;
+
+}
+
+.dashboard-card p{
+
+    color:#555;
+
+}
+
+/* CAB CARD */
+
+.cab-card{
+
+    border:none;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+.cab-card img{
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.cab-card:hover{
+
+    transform:translateY(-8px);
+
+    transition:.3s;
+
+}
+/* BOOK CAB */
+
+.card{
+
+    border-radius:15px;
+
+}
+
+.card h4{
+
+    font-weight:700;
+
+}
+
+.card p{
+
+    color:#555;
+
+}
