@@ -1,15 +1,23 @@
 import { Link } from "react-router-dom";
 import { FaTaxi } from "react-icons/fa";
-
+import { useNavigate } from "react-router-dom";
 function Unav() {
+    const navigate = useNavigate();
+
+    const logout = () => {
+        localStorage.removeItem("token");
+        localStorage.removeItem("user");
+        navigate("/");
+    };
   return (
+    
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
       <div className="container">
 
         {/* Logo */}
         <Link className="navbar-brand fw-bold fs-3 text-primary d-flex align-items-center" to="/">
           <FaTaxi className="me-2" />
-          RideReady
+          UCab
         </Link>
 
         {/* Mobile Toggle */}

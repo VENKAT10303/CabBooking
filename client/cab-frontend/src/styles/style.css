@@ -242,3 +242,117 @@ body{
     color:#555;
 
 }
+/* MY BOOKINGS */
+
+.card{
+    border-radius:15px;
+    border:none;
+}
+
+.card h4{
+    color:#2563eb;
+    font-weight:700;
+}
+
+.card p{
+    margin-bottom:10px;
+}
+/* ===========================
+   ADMIN DASHBOARD
+=========================== */
+
+.dashboard-card{
+
+    padding:40px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+
+    transition:.3s;
+
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.dashboard-card h1{
+
+    font-size:50px;
+
+}
+
+.dashboard-card h3{
+
+    font-size:35px;
+
+    font-weight:bold;
+
+}
+
+.dashboard-card p{
+
+    font-size:18px;
+
+    margin-top:10px;
+
+}
+/* ADMIN TABLE */
+
+.table{
+
+    background:white;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+}
+
+.table th{
+
+    vertical-align:middle;
+
+}
+
+.table td{
+
+    vertical-align:middle;
+
+}
+
+.badge{
+
+    font-size:14px;
+
+    padding:8px 12px;
+
+}
+/* ADMIN BOOKINGS */
+
+.table-hover tbody tr:hover{
+
+    background:#f8f9fa;
+
+}
+
+.table td{
+
+    vertical-align:middle;
+
+}
+
+.badge{
+
+    font-size:13px;
+
+    padding:8px 12px;
+
+}

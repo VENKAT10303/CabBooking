@@ -41,7 +41,11 @@ function Login() {
 
         alert(res.data.message);
 
-        navigate("/user/home");
+        if (res.data.user.role === "admin") {
+    navigate("/admin/home");
+} else {
+    navigate("/user/home");
+}
 
     } catch (err) {
 
